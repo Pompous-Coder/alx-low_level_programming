@@ -1,11 +1,9 @@
-/*printing comment on c*/
-
 #include <stdio.h>
 
-/*
+/**
  *required header
  *
- * Returns zero if sucees
+ * Return: zero if sucees
  */
 int main(void)
 {
