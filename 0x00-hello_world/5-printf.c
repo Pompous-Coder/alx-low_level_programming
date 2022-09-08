@@ -1,15 +1,9 @@
-/**
- * Printing more stuff
- *  
- */
-
+/*printing stiuff*/
 #include <stdio.h>
-
 /**
- *
- * main-contains code for output
- * Return: 0 for sucees   
- *    
+  main-contains code for output
+ * 
+ * Return: 0 for sucees      
  */
 int main(void)
 {
