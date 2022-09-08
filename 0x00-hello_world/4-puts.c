@@ -1,4 +1,6 @@
-/*programme to prnt out string*/
+/**programme to prnt out string
+ *
+ */
 #include <stdio.h>
 /**
  *main:contains function for printing
