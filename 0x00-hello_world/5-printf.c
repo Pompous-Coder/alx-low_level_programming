@@ -1,7 +1,7 @@
 /*printing stiuff*/
 #include <stdio.h>
 /**
-  main-contains code for output
+ * main-contains code for output
  * 
  * Return: 0 for sucees      
  */
