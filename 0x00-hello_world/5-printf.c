@@ -1,8 +1,8 @@
 /*printing stiuff*/
 #include <stdio.h>
 /**
- * main-contains code for output
- * Return: 0 for sucees      
+ * main-contains code for output.
+ * Return: Always 0.
  */
 int main(void)
 {
