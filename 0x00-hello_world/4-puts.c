@@ -1,10 +1,9 @@
 /*programme to prnt out string*/
 #include <stdio.h>
 /**
- *main:contains function for printing
- *
- *Description:Print stuff
- * Return: zero if sucees
+ * main-contains function for printing.
+ * Description:Print stuff.
+ * Return:Always zero.
  */
 int main(void)
 {
