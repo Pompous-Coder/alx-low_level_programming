@@ -1,1 +1,2 @@
-gcc  -o c
+#!/bin/bash/
+gcc $CFILE  -o c
