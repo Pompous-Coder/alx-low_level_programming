@@ -3,8 +3,6 @@
 #include <stdio.h>
 /**
  * main-Entry function
- * @n: random number generated
- *
  * Return: Always 0 if success
  */
 int main(void)
