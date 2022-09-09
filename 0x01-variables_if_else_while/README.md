@@ -8,3 +8,4 @@ meh
 6-print numbers from 0 to 9 with putchar
 7-reverse alphabets
 8-base 16 numbers
+9-numbers 0 to 9 in specific style 
