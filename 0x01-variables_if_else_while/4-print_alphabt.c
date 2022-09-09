@@ -11,7 +11,7 @@ int main(void)
 
 	for (str = 'a'; str <= 'z'; str++)
 	{
-		if(str == 'e' || str == 'q')
+		if (str == 'e' || str == 'q')
 			continue;
 		putchar(str);
 	}
