@@ -15,7 +15,7 @@ int main(void)
 
 	if ((n % 10) > 5)
 	{
-		printf("%s %d is %d and is greater than 5\n", const_Str, , n % 10);
+		printf("%s %d is %d and is greater than 5\n", const_Str, n, n % 10);
 	}
 	else if ((n % 10) ==  0)
 	{
