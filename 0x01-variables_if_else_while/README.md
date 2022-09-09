@@ -4,3 +4,4 @@
 3-printing low and caps alphabets
 4-alphabets except q and e
 meh
+5-print numbers from 0 to 9 
