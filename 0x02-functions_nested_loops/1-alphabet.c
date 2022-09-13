@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * main-Entry function
- * Description: Printing all lower case alphabets
+ * Description: Printing all lower case alphabets.
  * Return: Always 0 if success
  */
 void print_alphabet(void)
@@ -12,6 +12,4 @@ void print_alphabet(void)
 		_putchar(str);
 
 	_putchar('\n');
-
-	
 }
