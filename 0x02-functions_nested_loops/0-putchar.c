@@ -1,18 +1,20 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
+#include "main.h"
 /**
  * main-Entry function
  * Return: Always 0 if success
  */
 int main(void)
 {
-	char str;
 
-	for (str = 'z'; str >= 'a'; str--)
-		putchar(str);
-	putchar('\n');
-
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 	return (0);
 }
-1-printing _putchar using putchar
+
