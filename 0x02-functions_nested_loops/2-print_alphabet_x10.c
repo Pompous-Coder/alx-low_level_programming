@@ -5,9 +5,7 @@
  * Return: Always 0 if success
  */
 void print_alphabet_x10(void)
-
-{
-	char str;
+{	char str;
 	int cou;
 
 	for (cou = 0; cou <= 9; cou++)
