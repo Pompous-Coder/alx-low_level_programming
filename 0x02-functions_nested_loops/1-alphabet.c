@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main-Entry function
+ * print_alphabet- Self explanatory function
  * Description: Printing all lower case alphabets.
  * Return: Always 0 if success
  */
