@@ -1,4 +1,4 @@
-i#include "main.h"
+#include "main.h"
 /**
  * print_last_digit- Self explanatory function
  * Description: Printing all lower case alphabets.
