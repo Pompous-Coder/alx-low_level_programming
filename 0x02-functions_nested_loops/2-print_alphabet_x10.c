@@ -4,15 +4,17 @@
  * Description: Printing all lower case alphabets.
  * Return: Always 0 if success
  */
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
 	char str;
-	int val;
+	int cou;
 
-	for( val=0; val<=9; val++)
+	while(cou < 10)
 	{	for (str = 'a'; str <= 'z'; str++)
-			_putchar(str);
+		{	  _putchar(str);
 
+		}
 		_putchar('\n');
-	}
+	}	cou++
+	
 }
