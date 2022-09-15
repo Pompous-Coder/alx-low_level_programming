@@ -11,10 +11,11 @@ void more_numbers(void)
 	for (cou = 0; cou <= 9; cou++)
 	{
 		for (str = 0; str <= 14; str++)
+		{
 			if (str > 9)
 				_putchar((str / 10) + '0');
 			_putchar((str % 10) + '0');
-
+		}
 		_putchar('\n');
 	}
 }
