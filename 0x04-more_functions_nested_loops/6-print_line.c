@@ -5,18 +5,19 @@
  * Return: Always 0 if success
  */
 void print_line(int n)
-{ 
-	do 
+{
+	int low  = 0;
+
+	while (low < n)
 	{
-		if (n <= 0)
-		{
-			_putchar('\n');
-		}
-		else
+		if (n > 0)
 		{
 			_putchar('_');
-			n = n-1;
-		}	
+			low++;
+		}
+		else
+			_putchar('\n');
 	}
-	while(n>0);
+	_putchar('\n');
+
 }
