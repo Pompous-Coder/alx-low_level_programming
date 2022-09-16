@@ -9,25 +9,25 @@
 int main(void)
 {
 	char n;
-	char div3;
-	char div5;
+	char firstCon;
+	char secCon;
 
 	printf("1");
 
 	for (n = 2; n <= 100; n++)
 	{
-		div3 = n % 3;
-		div5 = n % 5;
+		firstCon = n % 3;
+		secCon = n % 5;
 
-		if (div3 == 0 && div5 == 0)
+		if (firstCon == 0 && secCon == 0)
 		{
 			printf(" FizzBuzz");
 		}
-		else if (div3 == 0 && div5 != 0)
+		else if (firstCon == 0 && secCon != 0)
 		{
 			printf(" Fizz");
 		}
-		else if (div3 != 0 && div5 == 0)
+		else if (firstCon != 0 && secCon == 0)
 		{
 			printf(" Buzz");
 		}
