@@ -6,13 +6,6 @@
  * Return: Always 0 if success
  */
 
-nclude "holberton.h"
-
-/**
- * print_diagonal - Prints diagonal line on terminal
- * @n: where \ should be printed
- *
- **/
 
 void print_diagonal(int n)
 {
