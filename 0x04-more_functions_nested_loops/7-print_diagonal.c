@@ -6,33 +6,40 @@
  * Return: Always 0 if success
  */
 
+nclude "holberton.h"
+
+/**
+ * print_diagonal - Prints diagonal line on terminal
+ * @n: where \ should be printed
+ *
+ **/
+
 void print_diagonal(int n)
-{   
-	if(n>0)
+{
+	int row;
+	int col;
+
+	if (n <= 0)
 	{
-		for (int i = n; i > 0; i--)
+		_putchar('\n');
+	}
+	else
+	{
+		for (row = 0; row < n; row++)
 		{
-			int spaces = n-i;
-            		int k=0;
-            		if (i == n)
-            		{
-                		_putchar('\\');
-				_putchar('\n');
-                		continue;
-            		}	
-            
-            		while(!(k>=spaces))
-            		{
-                		_putchar(' ');
-                		k++;
-                
-            		}
-			_putchar('\\');
- 	    		_putchar('n');
-        	}	
+			for (col = 0; col <= n; col++)
+			{
+				if (col < row)
+				{
+					_putchar(' ');
+				}
+				if (col == n)
+				{
+					_putchar('\\');
+				}
+			}
+			_putchar('\n');
+		}
 	}
-	else{
-        	_putchar('\n');
-	}
- 
 }
+
