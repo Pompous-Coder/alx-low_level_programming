@@ -7,3 +7,4 @@
 6-print in steps of two
 print half of string
 8-prinyt n nums
+9-copy pointer content
