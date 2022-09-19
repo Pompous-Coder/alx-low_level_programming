@@ -18,6 +18,7 @@ void rev_string(char *s)
 	{	reversed_word[j] = s[i];
 		j++;
 	}
-	s = reversed_word;
+	for (i = 0; i <= j - 1; i++)
+		s[i] = reversed_word[i];
 }
 
