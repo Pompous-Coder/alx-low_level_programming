@@ -4,3 +4,4 @@
 3-print out numbers
 4-Print in reverse
 5-reverse string
+6-print in steps of two
