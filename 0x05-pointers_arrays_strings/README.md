@@ -6,3 +6,4 @@
 5-reverse string
 6-print in steps of two
 print half of string
+8-prinyt n nums
