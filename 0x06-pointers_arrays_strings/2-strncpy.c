@@ -9,16 +9,13 @@
  * Return: Always 0 if success
  */
 char *_strncpy(char *dest, char *src, int n)
-{	int sl = 0;
-	int dl = 0;
-	int i;
+{	int i;
 
 	for (i = 0; i < n && src[i] != '\0'; i++)
 	{	dest[i] = src[i];
 	}
-	while (i < n)
+	for (; i < n; i++)
 	{	dest[i] = '\0';
-		i++;	
 	}
 	return (dest);
 }
