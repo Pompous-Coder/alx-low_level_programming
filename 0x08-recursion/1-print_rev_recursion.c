@@ -5,7 +5,7 @@
  * Description: Describe function
  * Return: REturn value
  */
-void _print_rev__recursion(char *s)
+void _print_rev_recursion(char *s)
 {
 	if (*s == '\0')
 		return;
