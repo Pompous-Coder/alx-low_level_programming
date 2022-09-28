@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _print_rev__recursion- Self explanatory function
+ * _print_rev_recursion- Self explanatory function
  * @s: pointer
  * Description: Describe function
  * Return: REturn value
