@@ -1,14 +1,16 @@
 #include <stdio.h>
 /**
- * main - entry point
- * @argc: number
- * @argv: strings
+ * main-  Self explanatory function
+ * @argc: parameter
+ * @argv: parameter
  *
- * Return: (0) Success
- **/
-
+ * Description: performing task
+ * Return: return results
+ */
 int main(int argc, char *argv[])
-{	if (argc <= 0)
+{	unsigned int i;
+
+	if (argc <= 0)
 		return (-1);
 	printf("%s\n", argv[0]);
 	return (0);
