@@ -8,10 +8,8 @@
  * Return: return results
  */
 int main(int argc, char *argv[])
-{	unsigned int i;
+{	(void) argc;
 
-	if (argc <= 0)
-		return (-1);
 	printf("%s\n", argv[0]);
 	return (0);
 }
