@@ -7,12 +7,10 @@
  * Description: performing task
  * Return: return results
  */
-int main(int argc, char *argv[])
-{	int bettyisfrustrating = 0;
-
-	if (argc <= 0)
-	{	return (-1);	
+int main(int argc, char *argv[]__attribute__((unused)))
+{	if (argc > 0)
+	{
+		printf("%d\n", (argc - 1));
 	}
-	printf("%d\n", argc - 1);
 	return (0);
 }
